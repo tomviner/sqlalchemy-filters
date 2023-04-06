@@ -25,6 +25,8 @@ matrix:
     - python: 2.7
       env: TOX_ENV="py27-sqlalchemy1.3"
     - python: 2.7
+      env: TOX_ENV="py27-sqlalchemy1.4"
+    - python: 2.7
       env: TOX_ENV="py27-sqlalchemylatest"
 
     - python: 3.5
@@ -35,6 +37,8 @@ matrix:
       env: TOX_ENV="py35-sqlalchemy1.2"
     - python: 3.5
       env: TOX_ENV="py35-sqlalchemy1.3"
+    - python: 3.5
+      env: TOX_ENV="py35-sqlalchemy1.4"
     - python: 3.5
       env: TOX_ENV="py35-sqlalchemylatest"
 
@@ -47,6 +51,8 @@ matrix:
     - python: 3.6
       env: TOX_ENV="py36-sqlalchemy1.3"
     - python: 3.6
+      env: TOX_ENV="py36-sqlalchemy1.4"
+    - python: 3.6
       env: TOX_ENV="py36-sqlalchemylatest"
 
     - python: 3.7
@@ -58,6 +64,8 @@ matrix:
     - python: 3.7
       env: TOX_ENV="py37-sqlalchemy1.3"
     - python: 3.7
+      env: TOX_ENV="py37-sqlalchemy1.4"
+    - python: 3.7
       env: TOX_ENV="py37-sqlalchemylatest"
 
     - python: 3.8
@@ -68,6 +76,8 @@ matrix:
       env: TOX_ENV="py38-sqlalchemy1.2"
     - python: 3.8
       env: TOX_ENV="py38-sqlalchemy1.3"
+    - python: 3.8
+      env: TOX_ENV="py38-sqlalchemy1.4"
     - python: 3.8
       env: TOX_ENV="py38-sqlalchemylatest"
 
